@@ -49,6 +49,7 @@ public class Anagrams extends JFrame {
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
+         System.out.println("121");
         try {
             javax.swing.UIManager.LookAndFeelInfo[] installedLookAndFeels=javax.swing.UIManager.getInstalledLookAndFeels();
             for (int idx=0; idx<installedLookAndFeels.length; idx++)
